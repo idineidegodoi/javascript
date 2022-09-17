@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparadores Lógicos</title>
+</head>
+
+<body>
+    <script src="./operadoresLogicos.js"></script>
+
+    <!--No nosso caso de estudos o aluno não pode ter mais que 25 faltas no período
+    e precisa ter nota acima de 7. Dessa maneira o sistema precisa retornar
+    APROVADO ou REPROVADO, conforme a condição explicitada.-->
+
+    <!--Começando com o operador lógio ||(ou)-->
+
+    <!--Variáveis-->
+    <!--Script para perguntar na tela-->
+    <script>
+        let nota = Number(window.prompt('Digite a nota do aluno!'));
+        let falta = Number(window.prompt('Digite o número de faltas do aluno!'));
+
+        //passando parâmetros na chamada da função.
+        aprovadoReprovado(nota, falta);
+
+    </script>
+
+    <!--
+        Caso quiser usar botão para chamar o resultado, precisa descomentar
+        o script abaixo.
+    -->
+        
+    <!--<a href="javascript:aprovadoReprovado(nota, falta);">Clique para ver se está aprovado ou reprovado</a>
+    -->
+    
+</body>
+
+</html>
