@@ -12,18 +12,18 @@ function escreverTexto(){ //função que não passa parâmetros.
 
 function operadorSoma(n1, n2){/*função de operador que atribui e soma.
 sem a necessidade de declarar a variável dentro da função*/
-    n1 += n2;
+    n1 += n2;//operador de soma com atribuição
     return n1;
 
 }
 
 function operadorSubtracao(num1, num2){//função com operador que atribui e subtrai.
-    num1 -= num2;
+    num1 -= num2;//operador de subtração com atribuição
     return num1;
 
 }
 
 function operadorMultiplica(mult1, mult2){
-    mult1 *= mult2;
+    mult1 *= mult2;//operador de multiplicação com atribuição
     return mult1;
 }
