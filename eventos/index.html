@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <script src="./script.js"></script>
+    <!--evento onclick-->
+    <h2>Evento - onclick</h2>
+    <button onclick="carConteudo()">Carregar conteúdo</button>
+    <p id="conteudo"></p>
+
+    <!--evento onmouseover e onmouseout-->
+
+    <h2>Evento onmouseover e onmouseout</h2>
+    <div onmouseover="mouseOver()" onmouseout="mouseOut()" class="contPers" id="mouseAlt">Passe o mouse</div>
+
+    <h2>Eventos - onChange e onKeyup</h2>
+    <form>
+        Nome: <input type="text" name="nome" id="nome" onchange="converTexto()"><br><br>
+
+        <div id="erroSenha"></div>
+        Senha: <input type="password" name="senha" id="senha" onkeyup="validarSenha()"><br><br>
+    </form>
+</body>
+</html>
